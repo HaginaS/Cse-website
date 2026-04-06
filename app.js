@@ -133,7 +133,7 @@ function throttle(fn, wait) {
 (function initTyping() {
   const el = document.getElementById('typing-text');
   if (!el) return;
-  const words = ['Computer Science', 'Engineering', 'Innovation Hub', 'Tech Excellence', 'Future Leaders'];
+  const words = ['Computer Science And Engineering', 'Innovation Hub', 'Tech Excellence', 'Future Leaders'];
   let wi = 0, ci = 0, deleting = false;
   const cursor = document.createElement('span');
   cursor.className = 'typing-cursor';
